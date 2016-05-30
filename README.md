@@ -1,30 +1,18 @@
+Este es nuestro proyecto de Entornos de Desarrollo.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+El proyecto lo hemos realizado en PHP y HTML, ya que queremos conectarnos a una base de datos mediante PHP. La Base de Datos que hemos utilizado la hemos creado desde C9, que es una base de datos MySQL.
 
+Hemos terminado de hacer la parte del HTML dentro de los archivos PHP, no hemos conseguido conectarnos a las Bases de Datos de los usuarios y las recetas.
 
-Hi there! Welcome to Cloud9 IDE!
+     - index.php es la Pagina Principal
+     - En alimentacion.php aparecera en la parte central unos tips sobre alimentacion.
+     - En buscador.php en la parte central aparecera un "formulario" en el que el usuario buscaria la receta que quisiera y le devolveria
+          la receta buscada.
+     - La pagina dietas.php contiene algunas dietas que recomendamos al usuario.
+     - Los archivos login.html y login.php son archivos en los que hemos hecho pruebas.
+     - En el archivo preguntas_recetas, pondriamos algunas preguntas frecuentes que se le pueden ocurrir al usuario.
+     - En receta_semana, cada semana apareceria una receta diferente que se tuviera en la base de datos.
+     - El archivo sube_receta permitiria al usuario subir una receta que el quiera a la pagina, esa receta se añadiria a la base de           datos, y los otros usuarios podrian buscarla.
+     - Videos.php contendra videos de preparacion sobre algunas recetas.
 
-To get you started, we have created a small hello world application.
-
-1) Open the hello-world.php file
-
-2) Follow the run instructions in the file's comments
-
-3) If you want to look at the Apache logs, check out ~/lib/apache2/log
-
-And that's all there is to it! Just have fun. Go ahead and edit the code, 
-or add new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+No conseguimos conectarnos a la base de datos, todo lo que tenga que ver con la base de datos no se podra realizar.
