@@ -1,0 +1,288 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+#global {    
+	width:90%; 
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 5px black;
+}
+
+header {
+	width: 100%;
+	float: left;
+	border-radius: 10px 10px 0px 0px;
+}
+
+header img {
+    width: 175px; height: 175px;
+    float: left;
+    margin-top: 5%;
+}
+
+header h1 {
+	position: absolute;
+}
+
+#logo {
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 20px;
+}
+
+#titulo {
+    float: left;
+    padding-left: 5%;
+    padding-top: 8%;
+    text-shadow: 5px 5px 5px black;
+    font-size: 20px;
+    color:red;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#loggin {
+	width: 25%;
+	float: right;
+	background-color: #cccccc;
+	margin-bottom: 2%;
+	margin-right: 2%;
+    margin-top: 5%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+
+#user {
+    margin-left: 21px;
+}
+
+#loggin ul {
+	list-style: none;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#derecha {
+	width: 25%;
+	float: left;
+}
+
+#menu {
+	width: 90%;
+	background-color: #cccccc;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+
+    
+}
+
+#menu ul {
+	padding-left: 10%;
+}
+
+
+#boletin {
+	width: 90%;
+	background-color: #cccccc;
+	border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+}
+
+#destacados {
+	width: 90%;
+	background-color: #cccccc;
+	border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 8%;
+}
+
+section {
+    background-color: white;
+	width: 44%; height: 65%;
+	border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-top: 2%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+    padding-top: 1%;
+}
+
+section li {
+    list-style-type: none;
+}
+
+section img {
+    width: 125px; height: 150px;
+}
+
+#izquierda {
+	width: 25%;
+	float: right;
+
+}
+
+#ultReceta {
+	width: 90%;
+	background-color: #cccccc;
+	border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#ultReceta ul {
+	padding-left: 10%;
+}
+
+#receta_sem {
+	width: 90%;
+	background-color: #cccccc;
+	border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px black;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#receta_sem img {
+	height: 180px; width: 180px;
+	padding-left: 5%;
+    padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#receta_sem p {
+    text-align: center;
+}
+
+footer {
+	width: 100%;
+	float: left;
+    text-align: center;
+    padding-bottom: 0.2%;
+    margin-top: 1%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:black;
+    font-style: italic;
+}
+
+article {
+    padding-bottom: 5%;
+    padding-right: 2%;
+}
+
+#artista {
+    margin-left: 151px; 
+}
+
+#entradas {
+    margin-left: 66px;
+}
+
+#header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+            
+ul, ol {
+    list-style:none;
+}
+            
+.nav {
+    width:800px; /*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
+}
+ 
+.nav > li {
+    float:left;
+}
+            
+.nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+            
+.nav li a:hover {
+    background-color:#434343;
+}
+            
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+            
+.nav li:hover > ul {
+    display:block;
+}
+            
+.nav li ul li {
+    position:relative;
+}
+            
+.nav li ul li ul {
+    right:-140px;
+     top:0px;
+}
